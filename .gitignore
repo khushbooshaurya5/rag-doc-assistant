@@ -11,3 +11,4 @@ out/
 coverage/
 .turbo/
 .vercel/
+next-env.d.ts
