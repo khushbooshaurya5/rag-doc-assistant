@@ -5,7 +5,7 @@ Upload PDFs → chat with them → **grounded answers with page-level citations*
 A hosted, production-style take on my multi-agent / RAG work.
 
 ## Stack
-Next.js (App Router) + TypeScript + Tailwind · Supabase (Postgres + pgvector) · Google Gemini (`gemini-embedding-001` @ 768-dim + `gemini-2.5-flash`, swappable in `lib/llm.ts`) · `unpdf` for PDF text.
+Next.js (App Router) + TypeScript + Tailwind · Supabase (Postgres + pgvector) · Google Gemini (`gemini-embedding-001` @ 768-dim + `gemini-3.6-flash`, swappable in `lib/llm.ts`) · `unpdf` for PDF text.
 
 ## How it works
 1. **Upload** (`/api/upload`) → extract text per page (`unpdf`) → chunk → embed each chunk (Gemini) → store in Supabase `chunks` (pgvector).

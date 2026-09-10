@@ -5,7 +5,7 @@ import { GoogleGenAI } from "@google/genai";
 
 // Model IDs are pinned here (and only here). If Google retires one, swap it.
 export const EMBED_MODEL = "gemini-embedding-001";
-export const CHAT_MODEL = "gemini-2.5-flash";
+export const CHAT_MODEL = "gemini-3.6-flash";
 export const EMBED_DIM = 768; // must match the `vector(768)` column in Supabase
 
 function client(): GoogleGenAI {
