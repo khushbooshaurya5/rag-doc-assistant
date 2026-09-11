@@ -1,5 +1,7 @@
 # Multimodal RAG Document Assistant
 
+### ▶ Live demo: **https://rag-doc-assistant-chi.vercel.app**
+
 Upload PDFs → chat with them → **grounded answers with page-level citations**. Full-stack: **Next.js + Supabase (pgvector) + Gemini**, deployable to Vercel.
 
 A hosted, production-style take on my multi-agent / RAG work.
